@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
     public class JiraController : Controller
     {
         [HttpPost]
-        public async Task<IActionResult> CreateJiraIssue()
+        public async Task<IActionResult> CreateJiraIssue(System.String input)
         {
             string apiUrl = "https://aswecomp680.atlassian.net/rest/api/2/issue/";
             string JIRA_AUTH_TOKEN = "ATATT3xFfGF0vv7_KSrnnufIahHny77O7zre-N4zYwKmOmE-IhhNXdkS_KSfosfnrLs7erUcHkF4zwSLExx6JAjt4DgeQZ56WYF7P1DhDh5h0beSs60dBWgm78ltwzuHuoCTvKXQnmxZpQAo7QS8KHVU2G_M98RTcxZBEuM6BSzm7Ef3PHIROsE=9BF1C64C";
