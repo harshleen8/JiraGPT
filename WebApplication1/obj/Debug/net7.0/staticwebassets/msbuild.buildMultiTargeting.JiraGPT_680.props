@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\JiraGPT_680.props" />
+</Project>
